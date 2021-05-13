@@ -1,0 +1,48 @@
+name: the_social
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^2.0.0
+  cupertino_icons: ^1.0.2
+  custom_navigation_bar: any
+  eva_icons_flutter: ^3.0.0
+  firebase_auth: ^1.1.3
+  firebase_core: ^1.1.0
+  firebase_storage: ^8.0.5
+  font_awesome_flutter: ^9.0.0
+  google_sign_in: ^5.0.2
+  image_picker: ^0.7.4
+  lottie: ^1.0.1
+  page_transition: ^2.0.2
+  provider: ^5.0.0
+  timeago: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins.ttf
+
+    - family: Monteserat
+      fonts:
+        - asset: assets/fonts/Monteserat.ttf
